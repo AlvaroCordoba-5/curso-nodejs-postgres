@@ -16,6 +16,7 @@ class UserService {
     const query = 'SELECT * FROM tasks';
     const rta = await this.pool.query(query);
     return rta.rows;
+    //f
   }
 
   async findOne(id) {
